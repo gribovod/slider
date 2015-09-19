@@ -11,14 +11,22 @@
 
 <div id="container">
     <div id="content">
+
         <div class="slider">
             <ul id="ListImig">
-                <li><img src="1.jpg"></li>
-                <li><img src="2.jpg"></li>
-                <li><img src="3.jpg"></li>
-                <li><img src="4.jpg"></li>
+                <li class="slider0"><img src="1.jpg"></li>
+                <li class="slider1"><img src="2.jpg"></li>
+                <li class="slider2"><img src="3.jpg"></li>
+                <li class="slider3"><img src="4.jpg"></li>
             </ul>
+            <div class="nav">
+                <span rel="0" class="on"></span>
+                <span rel="1"></span>
+                <span rel="2"></span>
+                <span rel="3"></span>
+            </div>
         </div>
+
         <div id="input">
             Выберите файл <input id="inputfile" type="file" name="filename" accept="image"/><br />
             <button id="upload">Добавить картинку в слайдер</button>
